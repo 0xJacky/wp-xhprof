@@ -39,7 +39,8 @@ class SF_XHProfLoader {
             return;
         }
 
-        xhprof_enable($this->flags(), $this->options());
+        //xhprof_enable($this->flags(), $this->options());
+        xhprof_enable($this->flags());
 
         $this->started = true;
     }
